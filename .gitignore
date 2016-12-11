@@ -1,1 +1,76 @@
-# Created by .ignore support plugin (hsz.mobi)
+### LunaWeb Blog
+
+/sitemap.xml.gz
+
+# Wordpress
+wp-content/uploads/*
+!wp-content/uploads/.gitkeep
+
+# WP SuperCache
+wp-content/cache/*
+!wp-content/cache/.htaccess
+
+tmp/*
+!tmp/.gitkeep
+
+/wp-config-locale.php
+/.htaccess
+
+.sass-cache
+
+# Bundler
+.bundle
+/vendor/bundle
+
+### RVM
+
+/.rvmrc
+/.ruby-version
+/.ruby-gemset
+
+### Mess files
+
+.~lock.*
+.tmp*
+**.orig
+dump.rdb
+
+
+### Editors meta-data
+
+## IntelliJ IDEA / RubyMine
+*.ipr
+*.iws
+.idea/
+
+## Eclipse project management files
+.buildpath
+.loadpath
+.project
+.settings/*
+.externalToolBuilders/*
+
+## Textmate
+*.tmproj
+*.tmproject
+tmtags
+
+# SublimeText project files
+/*.sublime-project
+*.sublime-workspace
+
+
+### OS temporary files
+
+## Mac OS X
+.DS_Store
+._*
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+
+## Windows
+Thumbs.db
+
+## Linux
+*~
